@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bird Shooting Itro</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'>
+    </link>
+    <link rel="stylesheet" href="./styles/style.css"></link>
+</head>
+<body>
+    <div class="background1">
+        <div class="nameField">
+            <h2>Enter Your Name</h2>
+            <form action="./game.html">
+            <input type="text" name="username" placeholder="Enter Your Name">
+           <div class="selection">
+            <label for="Level">Choose Level:</label>
+            <select name="Level" >
+                <option value="one">one</option>
+                <option value="two">two</option>
+            </select>
+           </div>
+            <input type="submit" value="Go">
+            </form>
+        </div>
+        <div class="info">
+            <h2>Game Bird Shooting Points</h2>
+            
+            <ul>
+                <li><img src="./images/bird3.gif"><span>+5 points</span></li>
+                <li><img src="./images/bird2.gif"><span>+10 points</span></li>
+                <li><img src="./images/bird1.gif"><span>-10 points</span></li>
+            </ul>
+           
+        </div>
+        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>

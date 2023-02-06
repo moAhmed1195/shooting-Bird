@@ -1,0 +1,104 @@
+body,html{
+   
+    height: 100%;
+
+}
+.background1{
+    background-image: url("../images/background1.jpg");
+
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    
+}
+.nameField,.info{
+    
+        margin: 30px auto;
+        padding:10px;
+        width: 400px;
+        height: 200px;
+        border-radius: 10px;
+        background-color: rgba(173, 216, 230, .5)
+
+        
+}
+.nameField h2,.info h2{
+    text-align: center;
+    margin:10px;    
+}
+.nameField input[type="text"]{
+    display: block;
+    margin:0 auto 10px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: large;
+    padding: 5px;
+}
+.selection{
+
+        margin: 0 auto;
+        display: block;
+        width: 300px;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+}
+select{
+        width: 100px;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        border: solid 2px;
+}
+.nameField input[type="submit"]{
+    display: block;
+    width: 100px;
+    height: 50px;
+    color: green;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px auto;
+    font-size:large;
+    font-weight: bold;
+    cursor: pointer;
+}
+.info{
+    height: 300px;
+}
+.info ul {
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+
+}
+.info li {
+    display: block;
+    list-style: none;
+}
+.info li img{
+    height: 50px;
+    width: 50px;
+}
+.info span{
+    font-weight: bold;
+    font-size:40px;
+    margin-left: 20px;
+    line-height: 1.6;
+    
+}
+.info li:nth-child(1){
+    color: blue;
+}
+.info li:nth-child(2){
+    color: orange;
+}
+.info li:nth-child(3){
+    color: red;
+}
+
+
+
